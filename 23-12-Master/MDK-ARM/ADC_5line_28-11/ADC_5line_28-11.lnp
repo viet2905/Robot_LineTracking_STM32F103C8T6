@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"adc_5line_28-11\startup_stm32f103xb.o"
+"adc_5line_28-11\main.o"
+"adc_5line_28-11\stm32f1xx_it.o"
+"adc_5line_28-11\stm32f1xx_hal_msp.o"
+"adc_5line_28-11\stm32f1xx_hal_gpio_ex.o"
+"adc_5line_28-11\stm32f1xx_hal_adc.o"
+"adc_5line_28-11\stm32f1xx_hal_adc_ex.o"
+"adc_5line_28-11\stm32f1xx_hal.o"
+"adc_5line_28-11\stm32f1xx_hal_rcc.o"
+"adc_5line_28-11\stm32f1xx_hal_rcc_ex.o"
+"adc_5line_28-11\stm32f1xx_hal_gpio.o"
+"adc_5line_28-11\stm32f1xx_hal_dma.o"
+"adc_5line_28-11\stm32f1xx_hal_cortex.o"
+"adc_5line_28-11\stm32f1xx_hal_pwr.o"
+"adc_5line_28-11\stm32f1xx_hal_flash.o"
+"adc_5line_28-11\stm32f1xx_hal_flash_ex.o"
+"adc_5line_28-11\stm32f1xx_hal_exti.o"
+"adc_5line_28-11\stm32f1xx_hal_spi.o"
+"adc_5line_28-11\stm32f1xx_hal_tim.o"
+"adc_5line_28-11\stm32f1xx_hal_tim_ex.o"
+"adc_5line_28-11\system_stm32f1xx.o"
+--strict --scatter "ADC_5line_28-11\ADC_5line_28-11.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_5line_28-11.map" -o ADC_5line_28-11\ADC_5line_28-11.axf
